@@ -22,6 +22,7 @@ export default class App extends React.Component {
                     <Route path="/aboutme" element={<AboutMe />}/>
                     <Route path="/resume" element={<Resume />}/>
                     <Route path="/blog" element={<Blog />}/>
+                    <Route path="/portfolio" element={<Portfolio />}/>
                     <Route path="/contact" element={<Contact />}/>
                     <Route path="/" element={<AboutMe />}/>
                 </Routes>
